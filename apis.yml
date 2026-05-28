@@ -1,0 +1,32 @@
+aid: zippopotam-us
+name: Zippopotam.us
+description: "Get information about place such as country, city, state, etc"
+url: http://www.zippopotam.us
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Geocoding"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Geocoding
+  - Public APIs
+apis:
+  - name: Zippopotam.us
+    description: "Get information about place such as country, city, state, etc"
+    humanURL: http://www.zippopotam.us
+    baseURL: http://www.zippopotam.us
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: http://www.zippopotam.us
+common:
+  - type: Website
+    url: http://www.zippopotam.us
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
