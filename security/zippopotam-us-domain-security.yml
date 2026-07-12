@@ -1,0 +1,15 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.zippopotam.us
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 31 17:45:43 2026 GMT
+  hsts: false
+domains:
+- domain: zippopotam.us
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
