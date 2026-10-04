@@ -39,7 +39,6 @@ apis:
   - name: Zippopotam.us
     description: "Get information about place such as country, city, state, etc"
     humanURL: http://www.zippopotam.us
-    baseURL: http://www.zippopotam.us
     tags:
       - Geocoding
     properties:
